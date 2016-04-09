@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "watch": true
+    },
+    "exclude": [
+        "node_modules",
+        "typings"
+    ],
+    "filesGlob": [
+        "./**/*.ts",
+        "!node_modules/**/*.ts",
+        "!typings/**/*.ts",
+        "!typings/*.ts"
+    ]
+}
